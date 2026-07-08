@@ -1,0 +1,17 @@
+name: deprem_uyari_sistemi
+description: Turkiye Anlik Deprem Takip ve Erken Uyari Sistemi
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  audioplayers: ^6.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/siren.mp3
